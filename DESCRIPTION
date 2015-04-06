@@ -1,0 +1,9 @@
+Package: SirKR
+Type: Package
+Title: Upgraded functions
+Version: 1.0
+Date: 2015-04-06
+Author: Kári Rögnvaldsson and Sölvi Rögnvaldsson
+Maintainer: Kári Rögnvaldsson <karirogg@gmail.com>
+Description: meanNA and sumNA are upgraded versions of the original functions
+License: BollagardarProductions
