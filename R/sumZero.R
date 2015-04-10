@@ -10,7 +10,7 @@
 #' @export
 sumZero <- function(x) {
      if(!(class(x) %in% c("numeric", "logical"))) {
-          stop("The input value is not able to convert to a numeric vector")
+          #stop("The input value is not able to convert to a numeric vector")
      }
      
      returnValue = 0
