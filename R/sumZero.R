@@ -9,8 +9,8 @@
 #' returns: 0
 #' @export
 sumZero <- function(x) {
-     if(!(class(x) %in% c("numeric", "logical"))) {
-          #stop("The input value is not able to convert to a numeric vector")
+     if(!(class(x) %in% c("numeric", "logical","integer"))) {
+          stop("The input value is not able to convert to a numeric vector")
      }
      
      returnValue = 0
