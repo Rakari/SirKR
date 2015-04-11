@@ -5,7 +5,7 @@
 #' @return The cleaned data frame
 #' @export
 
-clean <- function(x) {
+clean <- function(df) {
      zerodf = data.frame(matrix(0, dim(df)[1], dim(df)[2]))
      
      colnames(zerodf) = names(df)

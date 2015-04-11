@@ -4,7 +4,7 @@
 \alias{clean}
 \title{Clean Algae dataset}
 \usage{
-clean(x)
+clean(df)
 }
 \arguments{
 \item{df}{The data frame to be cleaned}
